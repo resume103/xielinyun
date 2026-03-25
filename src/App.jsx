@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/xielinyun">
       <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
         <Navbar />
         {/* 路由配置 */}
